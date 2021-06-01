@@ -1,0 +1,358 @@
+.conteiner{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: rgb(17, 15, 15);
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 50%;
+    height: 100%;
+   display: flex;
+    margin-top: 0%;
+    margin-left: 15%;
+    padding: 0%;
+ 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+   align-items: center;
+    justify-content: space-around;
+   text-decoration: none;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(179, 66, 66)
+}
+
+.logo{
+    display: flex;
+    width:15%;
+   margin-top: 0.5%;
+   margin-left: 0.5%;
+   filter: drop-shadow(0.5px 0.5px 0.5px rgb(0, 0, 0));
+}
+.login{
+   display: flex;
+   align-items: center;
+   width: 50%;
+  justify-content: flex-end;
+  padding: 0%;
+  
+}
+.login a{
+    text-decoration: none;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 0%;
+    color: grey;
+    justify-content: space-between;
+   
+}
+.login a:hover{
+ color: rgb(110, 107, 107);
+  
+}
+.fas{
+    color: grey;
+    margin-right: 10%;
+    margin-top: 3%;   
+}
+.portada{
+    width: 100%;
+    height: 80%;
+   background-image: url(https://thebusinessofesports.com/wp-content/uploads/2021/04/Razer.jpg);
+   background-size: cover;
+  background-position: center;
+}
+.portada h2{
+   color: rgb(11, 139, 243);
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: rgb(141, 12, 201) 0.1px;
+    font-family: 'Monoton', cursive;
+    font-size: 4.3em;
+    padding-top: 5%;
+    
+}
+.sponsor{
+    width: 100%;
+    height: 10%;   
+   display: flex;
+   justify-content: center;
+   background-color: coral;
+   align-items: center;
+   justify-content: space-around;
+}
+.imagen1{
+    width: 9%;
+    padding: 0.2%;    
+}
+.imagen2{
+    width: 10%;
+   
+    
+}
+.imagen3{
+    width: 9%;
+    padding: 0.2%;
+    
+}
+.imagen4{
+    width: 6%;
+    padding: 0.2%;
+    
+}
+.imagen5{
+    width: 12%;
+    padding: 1%;
+    
+}
+.imagen6{
+    width: 12%;
+   
+    
+}
+.imagen7{
+    width: 9%;
+    
+}
+.section-carousel{
+ width: 100%;
+ height: 80%;
+ display: flex;
+ justify-content: center;
+ margin: 0%;
+ background-color: black;
+}
+.carousel{
+    width: 80%;
+    height: 100%;
+  
+}
+.carousel-item img{
+    width: 100%;
+   height: 100%;
+    display: flex;
+   
+}
+.pcs{
+    width: 100%;
+    height: 100%;
+  background-image: url(https://i2.wp.com/grantmagazine.com/wp-content/uploads/2016/04/GAMING-GIF.gif);
+ background-position: center;
+ background-size: cover;
+}
+.pcs h2{
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   color: rgb(223, 61, 32);
+}
+.div-pc{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+  
+}
+.basic{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(218, 69, 198) solid;
+    padding-bottom: 1.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border-radius: 5px;
+    background-color: rgba(8, 7, 7, 0.8);
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.basic a{
+    width: 30%;
+    text-align: center;
+    margin-top: 18%;
+    text-decoration: none;
+    border: black 2px solid;
+    color: white;
+    background-color: rgb(158, 31, 9);
+    border-radius: 3px;
+    font-family: 'Odibee Sans', cursive;
+}
+.elite{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(137, 36, 219) solid;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgba(8, 7, 7, 0.8);
+    align-items: center;
+    color: white;
+}
+.elite a{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: none;
+    border: black 2px solid;
+    color: white;
+    background-color: rgb(158, 31, 9);
+    border-radius: 3px;
+    font-family: 'Odibee Sans', cursive;
+}
+.extreme{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border:  2px rgb(184, 56, 167) solid;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.6%;
+    border-radius: 5px;
+    background-color: rgba(8, 7, 7, 0.8);
+    align-items: center;
+    color: white;
+}
+.extreme a{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    margin-top: 3%;
+    text-decoration: none;
+    border: black 2px solid;
+    color: white;
+    background-color: rgb(158, 31, 9);
+    border-radius: 3px;
+    font-family: 'Odibee Sans', cursive;
+}
+.premium{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(107, 31, 250) solid;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgba(8, 7, 7, 0.8);
+    align-items: center;
+    color: white;
+}
+.premium a{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: none;
+    border: black 2px solid;
+    color: white;
+    background-color: rgb(158, 31, 9);
+    border-radius: 3px;
+    font-family: 'Odibee Sans', cursive;
+}
+.pc a:hover{
+    color: black;
+}
+.pc h3{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+}
+.pc ul{
+    font-family: 'Teko', sans-serif;
+    padding: 0%;
+    text-align: start;
+    font-size: 1.1em;
+}
+.pc img{
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-section{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.jbl.es/on/demandware.static/-/Sites-JB-EMEA-Library/default/dw4dc1b880/glp/quantum-emea/images/features-03.jpg);
+    padding-top: 2%;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+ width: 50%;
+ height: 90%;
+ background: rgba(211, 98, 98, 0.8) !important;
+color: rgb(14, 10, 10);
+}
+.card p{
+    text-align: center;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+.card-header{
+    font-family: 'Odibee Sans', cursive;
+}
+.card-title{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 2em;
+}
+.buttom{
+  text-decoration: none;
+  font-size: 1.5em;
+   padding: 0.5%;
+   padding-left: 2%;
+   padding-right: 2%;
+  border: black 2px solid;
+  color: white;
+  background-color: rgb(158, 31, 9);
+  border-radius: 3px;
+  font-family: 'Odibee Sans', cursive;
+}
+.buttom:hover{
+    padding: 1%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   color: black;
+} 
+
+footer{
+    width: 100%;
+    height: 6%;
+    background-color: black;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.fab-icon{
+    color: rgb(255, 255, 255);
+    margin: 1%;
+}
