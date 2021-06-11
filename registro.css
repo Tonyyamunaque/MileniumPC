@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1534507.jpg);
+    background-size: cover;
+    font-family:'Odibee Sans', cursive;
+}
+.box{
+    width: 25%;
+    height: 60%;
+    padding: 3%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0, 0.9);
+    text-align: center;
+    border-radius: 5px;
+}
+.box h1{
+    text-align: center;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+    border-bottom: 4px white double;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+.div{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid rgb(17, 190, 243);
+    margin-left: 7%;
+    margin-right: 4%;
+    margin-bottom: 0%;
+    
+}
+.div:hover{
+    border-bottom: 1.5px solid rgb(6, 109, 141);
+}
+.div input{
+     border: 0;
+    background: none;
+    display:flex;
+    margin: 2% auto;
+    margin-left: 2%;
+    text-align: start;
+    padding: 2% 1%;
+    width: 100%;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    font-family:'Odibee Sans', cursive;
+    font-size: 1.1em; 
+}
+.fas{
+    color: white;
+    margin-right: 2%;
+}
+.bottom{
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: 2px solid rgb(17, 190, 243);
+    padding: 1% 0.5%;
+    outline: none;
+    color: rgb(153, 149, 149);
+    width: 85%;
+    cursor: pointer;
+    transition: 0.25s;
+    font-family:'Odibee Sans', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.bottom:hover{
+    background-color:rgb(17, 190, 243);
+    color: black;
+    border: 2px solid rgb(4, 36, 46);
+}
+.nuevo{
+    margin-top: 4%;
+}
+.nuevo a{
+    color: rgb(49, 194, 109);
+}
+.nuevo a:hover{
+    color: rgb(39, 141, 82);
+}
+.fab{
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.fab:hover{
+    color: rgb(13, 70, 175);
+}
+@media (min-width:1024px) and (max-width:1124px){
+    .box{
+        width: 50%;
+        height: 45%;
+
+    }
+    .div input{
+       font-size: 1.8em; 
+   }
+   .bottom{
+       font-size: 1.8em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1.3em;
+   }
+.nuevo{
+    font-size: 1.3em;
+}
+}
+@media (min-width:768px) and (max-width:1023px){
+    .box{
+        width: 60%;
+        height: 60%;
+
+    }
+    .div input{
+       font-size: 1.8em; 
+   }
+   .bottom{
+       font-size: 1.8em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1.3em;
+   }
+.nuevo{
+    font-size: 1.3em;
+}
+}
+@media (min-width:540px) and (max-width:767px){
+    .box{
+        width: 60%;
+        height: 70%;
+
+    }
+    .div input{
+       font-size: 1.8em; 
+   }
+   .bottom{
+       font-size: 1.8em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1.3em;
+   }
+.nuevo{
+    font-size: 1.3em;
+}
+}
+@media (min-width:411px) and (max-width:539px){
+    .box{
+        width: 70%;
+        height: 65%;
+
+    }
+    .div input{
+       font-size: 1.8em; 
+   }
+   .bottom{
+       font-size: 1.8em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1.3em;
+   }
+.nuevo{
+    font-size: 1.3em;
+}
+}
+@media (min-width:360px) and (max-width:410px){
+    .box{
+        width: 70%;
+        height: 65%;
+
+    }
+    .div input{
+       font-size: 1.2em; 
+   }
+   .bottom{
+       font-size: 1.2em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1em;
+   }
+.nuevo{
+    font-size: 1em;
+}
+}
+@media (min-width:300px) and (max-width:359px){
+    .box{
+        width: 70%;
+        height: 65%;
+
+    }
+    .div input{
+       font-size: 1.2em; 
+   }
+   .bottom{
+       font-size: 1.2em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1em;
+   }
+.nuevo{
+    font-size: 1em;
+}
+}
+@media (min-width:280px) and (max-width:299px){
+    .box{
+        width: 80%;
+        height: 60%;
+
+    }
+    .div input{
+       font-size: 1.2em; 
+   }
+   .bottom{
+       font-size: 1.2em;
+       text-decoration: none;
+   }
+   .bottom:hover{
+       background-color:rgb(17, 190, 243);
+       color: black;
+       border: 2px solid rgb(4, 36, 46);
+   }
+   .nuevo{
+       margin-top: 4%;
+   }
+   .nuevo a{
+       color: rgb(49, 194, 109);
+   }
+   .nuevo a:hover{
+       color: rgb(39, 141, 82);
+   }
+   .fab{
+       font-size: 1em;
+   }
+.nuevo{
+    font-size: 1.2em;
+}
+}

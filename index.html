@@ -22,24 +22,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale-1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
     <header> 
-        <div class="conteiner">
-            <img class="logo" src=".//Milenium_free-file124.png" alt="logo">
+        <div class="conteiner" id="inicio">
+            <img class="logo" src="./MILENIUM_free-filesi.png" alt="logo">
             <nav class="navbar">
             
               <ul class="lista-navegacion">
                 
-                <li><a href="#">Inicio</a></li>
+                <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#carousel">Productos</a></li>
                 <li><a href="#sobre-nosotros">¿Quienes somos?</a></li>
-                <li><a href="http://">Contacto</a></li>
+                <li><a href="#contacto-01">Contacto</a></li>
               </ul>
             </nav>
          
          <div class="login">
-           <a  href=""><i class="fas fa-user-alt"></i>INGRESAR</a> 
+           <a  href="login.html"><i class="fas fa-user-alt"></i>INGRESAR</a> 
            </div> 
        </div>   
     </header>
@@ -112,7 +114,7 @@
               <li>Almacenamiento SSD 240GB.</li>
               <li>Gabinete: Kit Ic3 Atx + fuente 500w.</li>
             </ul>    
-            <a href="">COMPRAR</a>   
+            <a  href="login.html">COMPRAR</a>   
          </div>
        <div class="elite pc">
          <h3>pc elite gamer</h3>
@@ -127,7 +129,7 @@
             <li> Fuente: 550w THERMALTAKE</li>
             <li>Gabinete: h200 TG THERMALTAKE</li>
           </ul>
-          <a href="">COMPRAR</a>  
+          <a  href="login.html">COMPRAR</a>  
         </div>
         <div class="extreme pc">
           <h3>pc extreme gamer</h3>
@@ -143,7 +145,7 @@
             <li> Fuente: Evga 500w 80 plus bronce</li>
             <li>Gabinete: Thermaltake H200</li>
           </ul>
-          <a href="">COMPRAR</a>  
+          <a  href="login.html">COMPRAR</a>  
          </div>
          <div class="premium pc">
           <h3>pc premium gamer</h3>
@@ -158,7 +160,7 @@
             <li> Fuente: Fuente Aureox 650w 80 plus</li>
             <li>Gabinete cooler master Mb311L Argb</li>
           </ul>
-          <a href="">COMPRAR</a>   
+          <a  href="login.html">COMPRAR</a>   
          </div>
         </div>
        
@@ -172,21 +174,40 @@
             <h5 class="card-title">Stop talking and start innovation.</h5>
             <p class="card-text">Somos una empresa Joven, en expansión desde el 2005, con experiencia en el rubro, con técnicos capacitados, dedicados a brindar soluciones informáticas en software y hardware, con el apoyo de grandes empresas líderes en el mercado.
             Nos dedicamos exclusivamente al armado y venta de productos gamer y contamos con grandes marcas sponsor que confian en nosotros haciendo posible contar con los mejores precios del mercado.</p>
-            <a class="buttom" href="#">INICIO</a>
+             <button class="buttom"><a href="#inicio"> INICIO</a></button>
           </div>
           <div class="card-footer text-muted"></div>
         </div>
       </section>
       
     </main>
-    <footer>
-      <div class="icon">
-      <a class="fab-icon" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a class="fab-icon" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a class="fab-icon" href="https://www.linkedin.com/in/anthonny-yamunaque-68aa1b1ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a class="fab-icon" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
-      
-      </div>
+    <footer id="contacto-01">
+      <div class="footer1">
+        <div class="lugar">
+          <h5>¿DÓNDE ESTAMOS?</h5>
+            <p>Palermo Hollywood 2004, Buenos Aires.</p>
+            <p>Lunes a Viernes de 10:00 a 13:00 y de 15:00 a 19:00hs.</p>
+        </div>
+        <div class="icon">
+          <h5>REDES SOCIALES</h5>
+          <div class="icono">
+            <a class="fab-icon" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a class="fab-icon" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="fab-icon" href="https://www.linkedin.com/in/anthonny-yamunaque-68aa1b1ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="fab-icon" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          </div> 
+        </div>
+        <div class="contacto">
+          <H5>CONTACTO</H5>
+          <P>Recibí ofertas en tu email.</P>
+            <form action="form-contacto" class="form-contacto1">
+                <input class="border-input" type="text" placeholder="Nombre">
+                <input class="border-input" type="email" placeholder="Email">
+                 <div class="input-button"><button><a href="#inicio"> suscribirse</a></button></div> 
+            </form>
+        </div>       
+      </div>  
+      <p class="derechos">© 2021 Milenium - Todos los derechos reservados.</p>
    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>   
 </body>
